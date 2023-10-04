@@ -12,6 +12,8 @@
 		DC5F73D32ACB57C20099C859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5F73D22ACB57C20099C859 /* Assets.xcassets */; };
 		DC5F73D62ACB57C20099C859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5F73D42ACB57C20099C859 /* LaunchScreen.storyboard */; };
 		DC5F73E02ACB58CA0099C859 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F73DF2ACB58CA0099C859 /* LoginView.swift */; };
+		DC5F73E32ACB9DD00099C859 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F73E22ACB9DD00099C859 /* OnboardingContainerViewController.swift */; };
+		DC5F73E52ACD0AFD0099C859 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F73E42ACD0AFD0099C859 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DC5F73D52ACB57C20099C859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC5F73D72ACB57C20099C859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC5F73DF2ACB58CA0099C859 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DC5F73E22ACB9DD00099C859 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
+		DC5F73E42ACD0AFD0099C859 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,8 @@
 		DC5F73C82ACB57C20099C859 /* noStoryboard */ = {
 			isa = PBXGroup;
 			children = (
-				DC5F73DE2ACB58BA0099C859 /* Lgin */,
+				DC5F73E12ACB9D7B0099C859 /* Onboarding */,
+				DC5F73DE2ACB58BA0099C859 /* Login */,
 				DC5F73C92ACB57C20099C859 /* AppDelegate.swift */,
 				DC5F73DD2ACB58920099C859 /* Files */,
 			);
@@ -71,13 +76,22 @@
 			name = Files;
 			sourceTree = "<group>";
 		};
-		DC5F73DE2ACB58BA0099C859 /* Lgin */ = {
+		DC5F73DE2ACB58BA0099C859 /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				DC5F73CD2ACB57C20099C859 /* LoginViewController.swift */,
 				DC5F73DF2ACB58CA0099C859 /* LoginView.swift */,
 			);
-			path = Lgin;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DC5F73E12ACB9D7B0099C859 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F73E22ACB9DD00099C859 /* OnboardingContainerViewController.swift */,
+				DC5F73E42ACD0AFD0099C859 /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +166,9 @@
 			files = (
 				DC5F73E02ACB58CA0099C859 /* LoginView.swift in Sources */,
 				DC5F73CE2ACB57C20099C859 /* LoginViewController.swift in Sources */,
+				DC5F73E52ACD0AFD0099C859 /* OnboardingViewController.swift in Sources */,
 				DC5F73CA2ACB57C20099C859 /* AppDelegate.swift in Sources */,
+				DC5F73E32ACB9DD00099C859 /* OnboardingContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
