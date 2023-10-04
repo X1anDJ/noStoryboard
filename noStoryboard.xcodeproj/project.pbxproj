@@ -16,6 +16,8 @@
 		DC5F73E52ACD0AFD0099C859 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F73E42ACD0AFD0099C859 /* OnboardingViewController.swift */; };
 		DC5F73E72ACD26B60099C859 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F73E62ACD26B60099C859 /* DummyViewController.swift */; };
 		DC5F73EA2ACD34B60099C859 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F73E92ACD34B60099C859 /* LocalState.swift */; };
+		DC5F73EC2ACDBE840099C859 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F73EB2ACDBE840099C859 /* UIViewController+Utils.swift */; };
+		DC5F73EE2ACDC01A0099C859 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F73ED2ACDC01A0099C859 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		DC5F73E42ACD0AFD0099C859 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		DC5F73E62ACD26B60099C859 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		DC5F73E92ACD34B60099C859 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
+		DC5F73EB2ACDBE840099C859 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		DC5F73ED2ACDC01A0099C859 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +66,12 @@
 		DC5F73C82ACB57C20099C859 /* noStoryboard */ = {
 			isa = PBXGroup;
 			children = (
-				DC5F73E82ACD34A40099C859 /* Utils */,
-				DC5F73E12ACB9D7B0099C859 /* Onboarding */,
-				DC5F73DE2ACB58BA0099C859 /* Login */,
 				DC5F73C92ACB57C20099C859 /* AppDelegate.swift */,
+				DC5F73DE2ACB58BA0099C859 /* Login */,
+				DC5F73E12ACB9D7B0099C859 /* Onboarding */,
+				DC5F73E82ACD34A40099C859 /* Utils */,
 				DC5F73DD2ACB58920099C859 /* Files */,
+				DC5F73ED2ACDC01A0099C859 /* MainViewController.swift */,
 			);
 			path = noStoryboard;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				DC5F73E92ACD34B60099C859 /* LocalState.swift */,
+				DC5F73EB2ACDBE840099C859 /* UIViewController+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -178,11 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5F73EC2ACDBE840099C859 /* UIViewController+Utils.swift in Sources */,
 				DC5F73E02ACB58CA0099C859 /* LoginView.swift in Sources */,
 				DC5F73EA2ACD34B60099C859 /* LocalState.swift in Sources */,
 				DC5F73E72ACD26B60099C859 /* DummyViewController.swift in Sources */,
 				DC5F73CE2ACB57C20099C859 /* LoginViewController.swift in Sources */,
 				DC5F73E52ACD0AFD0099C859 /* OnboardingViewController.swift in Sources */,
+				DC5F73EE2ACDC01A0099C859 /* MainViewController.swift in Sources */,
 				DC5F73CA2ACB57C20099C859 /* AppDelegate.swift in Sources */,
 				DC5F73E32ACB9DD00099C859 /* OnboardingContainerViewController.swift in Sources */,
 			);
